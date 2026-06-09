@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jeevan - Cybersecurity & Backend Developer"
+    />
+    <title>Jeevan | Cybersecurity Professional</title>
+    <link rel="icon" href="icons/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style_1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="practise_Javascript_1.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">Jeevan Nayak</a>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#contact" class="nav-btn">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content fade-in">
+        <div class="hero-badge">
+          <span class="status-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">
+          <span class="greeting">Hello, I'm</span>
+          <span class="name">Jeevan Nayak</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          <span class="typed-text"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-description">
+          Securing digital landscapes through ethical hacking, vulnerability
+          assessment, and building robust backend systems. Passionate about
+          making the cyber world safer.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-shield-alt"></i> View Projects
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-terminal"></i>Get In Touch
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Learning</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual fade-in">
+        <div class="profile-frame">
+          <img
+            src="pics/photo.jpg"
+            alt="Jeevan - Cybersecurity Professional"
+            class="profile-img"
+          />
+          <div class="frame-glow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">
+            Security-focused solutions and backend implementations
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card fade-in" data-modal-target="#projectModal1">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-lock"></i>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Omust669/"
+                  target="_blank"
+                  class="project-link"
+                  title="View Code"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link" title="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Security Scanner</h3>
+            <p class="project-description">
+              Automated vulnerability assessment tool for web applications with
+              comprehensive reporting.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">OWASP</span>
+              <span class="tech-tag">API</span>
+            </div>
+          </div>
+
+          <div class="project-card fade-in" data-modal-target="#projectModal2">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Omust669/"
+                  target="_blank"
+                  class="project-link"
+                  title="View Code"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Network Monitor</h3>
+            <p class="project-description">
+              Real-time network traffic analysis and intrusion detection system
+              dashboard.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Wireshark</span>
+              <span class="tech-tag">Flask</span>
+            </div>
+          </div>
+
+          <div class="project-card fade-in" data-modal-target="#projectModal3">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Jeevannyk/"
+                  target="_blank"
+                  class="project-link"
+                  title="View Code"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Secure Backend API</h3>
+            <p class="project-description">
+              RESTful API with JWT authentication, rate limiting, and SQL
+              injection prevention.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">JWT</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">Tools and technologies I work with</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category fade-in">
+            <div class="category-header">
+              <i class="fas fa-shield-virus"></i>
+              <h3>Security</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-name">Penetration Testing</span></li>
+              <li><span class="skill-name">Vulnerability Assessment</span></li>
+              <li><span class="skill-name">Network Security</span></li>
+              <li><span class="skill-name">SIEM Tools</span></li>
+              <li><span class="skill-name">Incident Response</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category fade-in">
+            <div class="category-header">
+              <i class="fas fa-server"></i>
+              <h3>Backend</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-name">Python</span></li>
+              <li><span class="skill-name">Node.js</span></li>
+              <li><span class="skill-name">REST APIs</span></li>
+              <li><span class="skill-name">SQL / NoSQL</span></li>
+              <li><span class="skill-name">Docker</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category fade-in">
+            <div class="category-header">
+              <i class="fas fa-brain"></i>
+              <h3>AI / ML</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-name">Machine Learning</span></li>
+              <li><span class="skill-name">Threat Detection</span></li>
+              <li><span class="skill-name">Data Analysis</span></li>
+              <li><span class="skill-name">TensorFlow</span></li>
+              <li><span class="skill-name">Anomaly Detection</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category fade-in">
+            <div class="category-header">
+              <i class="fas fa-tools"></i>
+              <h3>Tools</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-name">Burp Suite</span></li>
+              <li><span class="skill-name">Wireshark</span></li>
+              <li><span class="skill-name">Metasploit</span></li>
+              <li><span class="skill-name">Nmap</span></li>
+              <li><span class="skill-name">Git / GitHub</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Achievements</h2>
+          <p class="section-subtitle">Competitions and recognitions</p>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card fade-in" data-modal-target="#achieveModal1">
+            <div class="achievement-header">
+              <div class="achievement-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <span class="achievement-badge">2nd Prize</span>
+            </div>
+            <h3 class="achievement-title">Srinathon 2.0</h3>
+            <p class="achievement-description">
+              Competitive hackathon achievement demonstrating strong
+              problem-solving and collaboration skills under pressure.
+            </p>
+            <div class="achievement-tags">
+              <span class="achievement-tag">Hackathon</span>
+              <span class="achievement-tag">Problem Solving</span>
+              <span class="achievement-tag">Team Collaboration</span>
+            </div>
+            <div class="achievement-view-cert">
+              <i class="fas fa-image"></i> View Certificate
+            </div>
+          </div>
+
+          <div class="achievement-card fade-in" data-modal-target="#achieveModal2">
+            <div class="achievement-header">
+              <div class="achievement-icon">
+                <i class="fas fa-flag"></i>
+              </div>
+              <span class="achievement-badge">3rd Prize</span>
+            </div>
+            <h3 class="achievement-title">Capture The Flag (CTF)</h3>
+            <p class="achievement-description">
+              Competed in cybersecurity challenges including OSINT, web
+              exploitation, and reverse engineering. Gained hands-on experience
+              in practical security scenarios.
+            </p>
+            <div class="achievement-tags">
+              <span class="achievement-tag">OSINT</span>
+              <span class="achievement-tag">Web Exploitation</span>
+              <span class="achievement-tag">Reverse Engineering</span>
+            </div>
+            <div class="achievement-view-cert">
+              <i class="fas fa-image"></i> View Certificate
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">
+            Professional credentials and achievements
+          </p>
+        </div>
+
+        <div class="certs-scroll-wrapper">
+          <div class="certs-track" id="certs-track">
+            <div class="cert-card">
+              <div class="cert-icon">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <h3 class="cert-title">CompTIA Security+</h3>
+              <p class="cert-issuer">CompTIA</p>
+              <span class="cert-status">Planned</span>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-icon">
+                <i class="fas fa-user-shield"></i>
+              </div>
+              <h3 class="cert-title">CEH</h3>
+              <p class="cert-issuer">EC-Council</p>
+              <span class="cert-status">Planned</span>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-icon">
+                <i class="fas fa-cloud"></i>
+              </div>
+              <h3 class="cert-title">Django Web Framework</h3>
+              <p class="cert-issuer">Meta</p>
+              <span class="cert-status completed">Completed</span>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-icon">
+                <i class="fab fa-python"></i>
+              </div>
+              <h3 class="cert-title">Supervised Machine Learning</h3>
+              <p class="cert-issuer">Coursera</p>
+              <span class="cert-status completed">Completed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">
+            Let's discuss security, collaborate on projects, or just connect
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info fade-in">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <a href="mailto:jeevangknayak@gmail.com"
+                  >jeevangknayak@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Available Remotely</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/Omust669/"
+                class="social-link"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/jeevan-gk"
+                class="social-link"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/nayak__789/"
+                class="social-link"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="mailto:jeevangknayak@gmail.com"
+                class="social-link"
+                aria-label="Email"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form fade-in" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What's this about?"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your message..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">Jeevan Nayak</div>
+        <p class="footer-text">
+          Securing the digital frontier, one line of code at a time.
+        </p>
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="copyright">
+          &copy; 2026 Jeevan. Built with security in mind.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <div id="projectModal1" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-header">
+          <div class="modal-icon"><i class="fas fa-lock"></i></div>
+          <h2>Security Scanner</h2>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">
+            A comprehensive automated vulnerability assessment tool designed to
+            scan web applications for common security vulnerabilities including
+            OWASP Top 10 threats.
+          </p>
+          <div class="modal-features">
+            <h4>Key Features</h4>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> Automated SQL injection detection
+              </li>
+              <li><i class="fas fa-check"></i> XSS vulnerability scanning</li>
+              <li><i class="fas fa-check"></i> CSRF token validation</li>
+              <li><i class="fas fa-check"></i> Comprehensive PDF reports</li>
+            </ul>
+          </div>
+          <div class="modal-tech">
+            <span>Python</span>
+            <span>BeautifulSoup</span>
+            <span>Requests</span>
+            <span>OWASP ZAP API</span>
+          </div>
+          <div class="modal-links">
+            <a
+              href="https://github.com/Omust669/"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fab fa-github"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projectModal2" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-header">
+          <div class="modal-icon"><i class="fas fa-network-wired"></i></div>
+          <h2>Network Monitor</h2>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">
+            Real-time network traffic analysis dashboard with intrusion
+            detection capabilities and alerting system for suspicious
+            activities.
+          </p>
+          <div class="modal-features">
+            <h4>Key Features</h4>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> Live packet capture and analysis
+              </li>
+              <li><i class="fas fa-check"></i> Anomaly detection algorithms</li>
+              <li>
+                <i class="fas fa-check"></i> Real-time alerts and notifications
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Traffic visualization dashboard
+              </li>
+            </ul>
+          </div>
+          <div class="modal-tech">
+            <span>Python</span>
+            <span>Scapy</span>
+            <span>Flask</span>
+            <span>Chart.js</span>
+          </div>
+          <div class="modal-links">
+            <a
+              href="https://github.com/Omust669/"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fab fa-github"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Achievement Certificate Modals -->
+    <div id="achieveModal1" class="modal">
+      <div class="modal-content modal-cert">
+        <span class="close">&times;</span>
+        <div class="modal-header">
+          <div class="modal-icon"><i class="fas fa-trophy"></i></div>
+          <div>
+            <h2>Srinathon 2.0</h2>
+            <p class="modal-subtitle">2nd Prize &mdash; Hackathon</p>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="cert-image-wrapper">
+            <img src="pics/Srinathon.jpg" alt="Srinathon 2.0 Certificate" class="cert-modal-img" />
+          </div>
+          <div class="modal-tech">
+            <span>Hackathon</span>
+            <span>Problem Solving</span>
+            <span>Team Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="achieveModal2" class="modal">
+      <div class="modal-content modal-cert">
+        <span class="close">&times;</span>
+        <div class="modal-header">
+          <div class="modal-icon"><i class="fas fa-flag"></i></div>
+          <div>
+            <h2>Capture The Flag (CTF)</h2>
+            <p class="modal-subtitle">3rd Prize &mdash; Cybersecurity</p>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="cert-image-wrapper">
+            <img src="pics/CTF.jpg" alt="CTF Certificate" class="cert-modal-img" />
+          </div>
+          <div class="modal-tech">
+            <span>OSINT</span>
+            <span>Web Exploitation</span>
+            <span>Reverse Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projectModal3" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-header">
+          <div class="modal-icon"><i class="fas fa-database"></i></div>
+          <h2>Secure Backend API</h2>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">
+            Production-ready RESTful API with comprehensive security features
+            including authentication, authorization, and protection against
+            common web vulnerabilities.
+          </p>
+          <div class="modal-features">
+            <h4>Key Features</h4>
+            <ul>
+              <li><i class="fas fa-check"></i> JWT-based authentication</li>
+              <li><i class="fas fa-check"></i> Rate limiting and throttling</li>
+              <li>
+                <i class="fas fa-check"></i> Input validation and sanitization
+              </li>
+              <li><i class="fas fa-check"></i> Encrypted data storage</li>
+            </ul>
+          </div>
+          <div class="modal-tech">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>JWT</span>
+          </div>
+          <div class="modal-links">
+            <a
+              href="https://github.com/Omust669/"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fab fa-github"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
